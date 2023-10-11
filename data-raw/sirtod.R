@@ -69,7 +69,7 @@ sirtod_valid_data <- sirtod_download |>
 	unnest(cols = query) |>
 	mutate(
 		año = parse_integer(año),
-		dato = dato |> str_remove(" ") |> parse_number()
+		dato = dato |> str_remove_all(" ") |> parse_number()
 	)
 
 # Prepare for data insertion
