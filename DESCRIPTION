@@ -1,10 +1,11 @@
 Package: perusirtod
-Title: What the Package Does (One Line, Title Case)
+Title: An Interface to the peruvian 'SIRTOD' data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Samuel", "Calderon", , "samuel.calderon@uarm.pe", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0001-6847-1210"))
+Description: Functionality to read data from the peruvian 'SIRTOD' (Regional Information System 
+	for Decision Making).
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
@@ -12,5 +13,5 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/calderonsamuel/perusirtod
+URL: https://github.com/calderonsamuel/perusirtod, https://calderonsamuel.github.io/perusirtod/
 BugReports: https://github.com/calderonsamuel/perusirtod/issues
