@@ -68,8 +68,8 @@ sirtod_valid_data <- sirtod_download |>
 	mutate(query = map(query, "result")) |>
 	unnest(cols = query) |>
 	mutate(
-		año = parse_number(año),
-		dato = parse_number(dato)
+		año = parse_integer(año),
+		dato = dato |> str_remove(" ") |> parse_number()
 	)
 
 # Prepare for data insertion
