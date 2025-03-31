@@ -39,7 +39,7 @@ sirtod_parents <- sirtod_pre_auto |>
 	)
 
 # Define a function to retrieve data for a given indicator and parameters
-get_sirtod_data <- function(indicador, tipo_ubigeo = 3, desde_anio = 2001, hasta_anio = 2022) {
+get_sirtod_data <- function(indicador, tipo_ubigeo = 3, desde_anio = 2001, hasta_anio = 2023) {
 	request("https://systems.inei.gob.pe/SIRTOD/app/consulta/getTableDataYear") |>
 		req_url_query(indicador_listado = indicador) |>
 		req_url_query(tipo_ubigeo = tipo_ubigeo) |>
