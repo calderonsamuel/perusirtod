@@ -1,6 +1,6 @@
 Package: perusirtod
 Title: An Interface to the peruvian 'SIRTOD' data
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Samuel", "Calderon", , "samuel.calderon@uarm.pe", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0001-6847-1210"))
